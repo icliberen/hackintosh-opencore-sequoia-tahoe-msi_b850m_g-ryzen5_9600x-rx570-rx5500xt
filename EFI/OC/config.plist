@@ -7,8 +7,6 @@
 		<key>Add</key>
 		<array>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -17,8 +15,6 @@
 				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -27,8 +23,6 @@
 				<string>SSDT-GPU-DISABLE.aml</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -37,8 +31,6 @@
 				<string>SSDT-PLUG.aml</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -47,8 +39,6 @@
 				<string>SSDT-USB-Reset.aml</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -56,7 +46,6 @@
 				<key>Path</key>
 				<string>SSDT-USBX.aml</string>
 			</dict>
-
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -171,7 +160,6 @@
 				CwAAAA==
 				</data>
 			</dict>
-
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -186,7 +174,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>Kernel patcher</string>
+				<string>V1.7.2 | Kernel patcher</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -204,7 +192,7 @@
 				<key>BundlePath</key>
 				<string>ForgedInvariant.kext</string>
 				<key>Comment</key>
-				<string>TSC sync for AMD Zen 5</string>
+				<string>V1.5.0 | TSC sync for AMD Zen 5</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -222,9 +210,9 @@
 				<key>BundlePath</key>
 				<string>AMFIPass.kext</string>
 				<key>Comment</key>
-				<string>Fix AMFI for Sequoia</string>
+				<string>V1.4.1 | Fix AMFI for Sequoia</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AMFIPass</string>
 				<key>MaxKernel</key>
@@ -234,14 +222,13 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-
 			<dict>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>AppleMCEReporterDisabler.kext</string>
 				<key>Comment</key>
-				<string>Disable MCE Reporter on AMD</string>
+				<string>V1.2 | Disable MCE Reporter on AMD</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -259,7 +246,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>SMC emulation (requires Lilu)</string>
+				<string>V1.3.7 | SMC emulation (requires Lilu)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -277,7 +264,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>GPU patches (requires Lilu)</string>
+				<string>V1.7.0 | GPU patches (requires Lilu)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -295,7 +282,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>Audio (requires Lilu)</string>
+				<string>V1.9.7 | Audio (requires Lilu)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -313,7 +300,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>NVMe fixes (requires Lilu)</string>
+				<string>V1.1.3 | NVMe fixes (requires Lilu)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -331,7 +318,7 @@
 				<key>BundlePath</key>
 				<string>LucyRTL8125Ethernet.kext</string>
 				<key>Comment</key>
-				<string>Realtek RTL8126 5Gb LAN</string>
+				<string>V1.2.300 | Realtek RTL8126 5Gb LAN</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -349,7 +336,7 @@
 				<key>BundlePath</key>
 				<string>USBToolBox.kext</string>
 				<key>Comment</key>
-				<string>USB port mapping</string>
+				<string>V1.2.0 | USB port mapping</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -367,7 +354,7 @@
 				<key>BundlePath</key>
 				<string>UTBDefault.kext</string>
 				<key>Comment</key>
-				<string>Default USB map - disabled, UTBMap.kext active</string>
+				<string>V1.0 | Default USB map - disabled, UTBMap.kext active</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -385,7 +372,7 @@
 				<key>BundlePath</key>
 				<string>UTBMap.kext</string>
 				<key>Comment</key>
-				<string>USB port map for this board</string>
+				<string>V1.1 | USB port map for this board</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -403,7 +390,7 @@
 				<key>BundlePath</key>
 				<string>CryptexFixup.kext</string>
 				<key>Comment</key>
-				<string>Fix Cryptex loading for macOS Ventura+</string>
+				<string>V1.0.5 | Fix Cryptex loading for macOS Ventura+</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -421,7 +408,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>Fix CPU name, SB model, and other restrictions</string>
+				<string>V1.1.6 | Fix CPU name, SB model, and other restrictions</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -442,7 +429,7 @@
 				<key>Comment</key>
 				<string>Disable IONVMeFamily to prevent panic</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Identifier</key>
 				<string>com.apple.iokit.IONVMeFamily</string>
 				<key>MaxKernel</key>
@@ -1515,7 +1502,7 @@
 			<key>InstanceIdentifier</key>
 			<string></string>
 			<key>LauncherOption</key>
-			<string>Disabled</string>
+			<string>Full</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1523,7 +1510,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
@@ -1538,21 +1525,21 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483714</integer>
+			<integer>2147483650</integer>
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>71</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -1565,7 +1552,7 @@
 			<key>AuthRestart</key>
 			<false/>
 			<key>BlacklistAppleUpdate</key>
-			<true/>
+			<false/>
 			<key>DmgLoading</key>
 			<string>Any</string>
 			<key>EnablePassword</key>
@@ -1663,7 +1650,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 alcid=11 debug=0x100 revpatch=sbvmm ipc_control_port_options=0 slide=114 -lilubetaall -amfipassbeta agdpmod=pikera</string>
+				<string>alcid=11 agdpmod=pikera revpatch=sbvmm</string>
 				<key>csr-active-config</key>
 				<data>
 				/w8AAA==
@@ -1848,7 +1835,7 @@
 				<key>Comment</key>
 				<string>Boot picker graphics</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
