@@ -1,4 +1,4 @@
-# MSI B850M-G Hackintosh – macOS Tahoe (Branch)
+# MSI B850M-G Hackintosh – macOS Tahoe (Working)
 
 > ⚠️ **This is the `tahoe` branch.** For the macOS Sequoia EFI, switch to the [`main`](https://github.com/icliberen/hackintosh-opencore-sequoia-msi_b850m_g-ryzen5_9600x-rx570/tree/main) branch.
 
