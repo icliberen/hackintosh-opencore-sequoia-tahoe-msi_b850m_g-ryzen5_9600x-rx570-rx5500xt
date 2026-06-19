@@ -56,7 +56,7 @@ Working OpenCore EFI for running **macOS Tahoe** on the MSI B850M-G motherboard 
 2. **6-Core CPU Patch:** AMD kernel patches adjusted with `ugYAAAA=` to match the Ryzen 5 9600X's 6 cores.
 3. **SSDT-CPUR:** Included for proper CPU initialization on B850 chipset.
 4. **Ethernet:** `LucyRTL8125Ethernet.kext` now works correctly with the RTL8126 controller under Tahoe.
-5. **Boot from Internal SSD:** This EFI is designed to boot directly from the Toshiba SSD's EFI partition (no USB required).
+5. **Boot from Internal SSD:** This EFI is designed to boot directly from the SSD's EFI partition, could boot from both other SSD EFI and Sata SSD EFI (Used Sata SSD because NVME SSD's that are appropriate for hackintosh were hard to find and run) (no USB required).
 
 ## Credits
 
