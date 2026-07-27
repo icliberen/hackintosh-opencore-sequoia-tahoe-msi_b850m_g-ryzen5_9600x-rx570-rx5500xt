@@ -2,7 +2,7 @@
 
 ⚠️ **This is the `tahoe` branch.** For the macOS Sequoia EFI, switch to the [`sequoia`](https://github.com/icliberen/hackintosh-opencore-sequoia-tahoe-msi_b850m_g-ryzen5_9600x-rx570-rx5500xt) branch.
 
-Working OpenCore EFI for running **macOS Tahoe** on the MSI B850M-G motherboard with an AMD Ryzen 5 9600X and **RX 5500 XT** GPU.
+Working OpenCore EFI for running **macOS Tahoe** on the MSI B850M-G motherboard with an AMD Ryzen 5 9600X and **RX 5500 XT** GPU (It's working with RX 6600 XT (Natively recognized) with the latest tahoe version right now, there is no problem updating the system).
 
 ## Hardware Specifications
 
